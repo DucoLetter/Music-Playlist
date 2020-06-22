@@ -1,0 +1,74 @@
+#navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+nav {
+  background-color: #dddddd;
+}
+
+.song-header {
+  background-color: #dddddd;
+}
+
+nav li:hover {
+  font-weight: bold;
+}
+
+li a {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+td {
+  text-align: center;
+  background-color: rgb(127, 229, 233);
+  padding: 8px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.inputSelect {
+  margin: 10px;
+  border-width: 0;
+  padding: 7px;
+}
+
+.button-primary {
+  border-radius: 40px;
+  border-width: 0;
+  color: white;
+  background-color: rgb(235, 72, 72);
+  margin-left: 15px;
+}
+
+.button-primary:hover {
+  background-color: lightseagreen;
+}
+
+.button {
+  border-radius: 40px;
+  border-width: 0;
+  padding: 6px;
+  background-color: lightseagreen;
+}
+
+.button:hover {
+  background-color: lightcoral;
+}
